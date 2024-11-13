@@ -1,5 +1,11 @@
 {
   "build": {
-    "builder": "NIXPACKS"
+    "builder": "NIXPACKS",
+    "nixpacks": {
+      "phases": {
+        "build": "echo 'No build step needed'",
+        "start": "npx serve ."
+      }
+    }
   }
 }
