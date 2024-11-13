@@ -170,7 +170,7 @@ async function initializeMahasiswaTable() {
             <td>${mhs.nama}</td>
             <td>${mhs.nim}</td>
             <td>
-                <a href="https://frontend-admin-production.up.railway.app/tables.html?nim=${
+                <a href="tables.html?nim=${
 									mhs.nim
 								}" class="btn btn-primary btn-sm">
                     Details
